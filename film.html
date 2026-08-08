@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <meta name="keywords" content="film,film afişi,the social network,yazılım film,esmanur mükyen,deü ybs,deü,>
+        <meta name="description" content="the social network filminin posteri">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+        <title>FİLM POSTERİ</title>
+        <style>
+            body{
+                background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(code2.png.jpeg);
+                background-size: cover;
+                background-position:center;
+                margin:0px;
+                background-attachment: fixed;
+                min-height: height 100vh;
+            }
+            .poster{
+                width: 320px;
+                height: 550px;
+                margin:50px auto;
+                border:4px solid white;
+                border-radius: 20px;
+                position:relative;
+                overflow: hidden;
+                transition: 0.3s;
+                background-image: url("arka.png");
+                background-size: cover;
+                background-position: center;
+
+            }
+            .poster:hover{
+                transform: translateY(-8px);
+            }
+            .arka{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+
+            }
+            .profil{
+                width: 230px;
+                height:120px;
+                border:4px solid #00ff88;
+                position:absolute;
+                top: 50px;
+                left:40px;
+                object-fit:cover;
+            }
+            .film-adı{
+                display:"flex";
+                align-items: center;
+                gap: 10px;
+                position:absolute;
+                top: 178px;
+                left:50px;
+            }
+            .film-adı i{
+                font-size:22px;
+                color:black;
+            }
+            .film-adı span{
+                color:#172554;
+                font-size:15px;
+                font-weight:bold;
+            }
+            .imbd{
+                position: absolute;
+                align-items: center;
+                gap:10px;
+                display:flex;
+                top:210px;
+                left:50px;
+            }
+            .imbd i{
+                font-size:22px;
+                color:black;
+            }
+            .imbd span{
+                color:#172554;
+                font-size:15px;
+                font-weight:bold;
+            }
+            .tur{
+                position: absolute;
+                align-items: center;
+                gap:10px;
+                display:flex;
+                top:250px;
+                left:50px;
+            }
+            .tur i{
+                font-size:22px;
+                color:black
+            }
+            .tur span{
+                color: #172554;
+                font-size:15px;
+                font-weight:bold;
+            }
+            .yönetmen{
+                position: absolute;
+                align-items: center;
+                gap:10px;
+                display:flex;
+                top:290px;
+                left:50px;
+
+            }
+            .yönetmen i{
+                font-size:22px;
+                color: black;
+            }
+            .yönetmen span{
+                font-size:15px;
+                font-weight:bold;
+                color: #172554;
+            }
+            .sure{
+                position: absolute;
+                align-items: center;
+                gap:10px;
+                display:flex;
+                top:330px;
+                left:50px;
+
+            }
+            .süre i{
+                font-size:22px;
+                color: black;
+            }
+            .sure span{
+                font-size:15px;
+                font-weight:bold;
+                color: #172554;
+            }
+            .özet-kutusu{
+                width: 230px;
+                height: 89px;
+                padding:10px;
+                border:2px solid #00ff88;
+                border-radius:10px;
+                background-color: #f5f5f5;
+                margin:15px auto;
+                position: absolute;
+                box-sizing:border-box;
+              
+                top: 340px;
+                left:45px;
+
+            }
+            .özet-kutusu p{
+                font-size:13px;
+                line-height: 1.5;
+                color: #444;
+                margin:0px;
+
+            }
+            .buton{
+                position: absolute;
+                top: 460px;
+                left:95px;
+
+            }
+            .buton a{
+                display:inline-block
+                padding:8px 18px;
+                border-radius:8px;
+                background-color: #00ff88;
+                color: #172554;
+                font-weight: bold;
+                text-decoration: none;
+               
+
+                
+
+            }
+            .buton a:hover{
+                color:#444;
+                transform: translateY(-8px);
+            }
+            
+           
+
+        </style>
+    </head>
+    <body>
+        <div class="poster">
+            
+            <img class="profil" src="film.png" alt="film posteri">
+            <div class="film-adı">
+                <i class="fa-solid fa-film"></i>
+                <span>THE SOCİAL NETWORK</span>
+            </div>
+            <div class="imbd">
+                <i class="fa-brands fa-imdb"></i>
+                <span>7.8</span>
+                <i class="fa-solid fa-calendar"></i>
+                <span>2010</span>
+            </div>
+            <div class="tur">
+                <i class="fa-solid fa-masks-theater"></i>
+                <span>Biyografi • Dram</span>
+
+            </div>
+            <div class="yönetmen">
+                <i class="fa-solid fa-video"></i>
+                <span>David fincher</span>
+
+            </div>
+            <div class="sure">
+                <i class="fa-solid fa-clock"></i>
+                <span>2s 0dk</span>
+
+            </div>
+            <div class="özet-kutusu">
+                <p>Mark Zuckerberg'in Facebook'u kurma sürecini anlatan film,başarı, arkadaşlık ve şirket üzerindeki anlaşmazlıkları konu alıyor.</p>
+
+            </div>
+            <div class="buton">
+                <a  href="https://www.imdb.com/title/tt1285016/" target="_blank">Filmi İnceleyiniz</a>
+
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
